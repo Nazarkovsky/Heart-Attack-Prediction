@@ -1,7 +1,7 @@
 # Heart-Attack-Prediction
 
 ## Abstract
-The project was prepared and submitted by C. Pinheiro, E. Carvalho, M. Nazarkovsky, G. Piovesan, I. Barros within the Brazilian "Bootcamp Data Science na prática" by Neuron (https://www.facebook.com/neuronDSAI/photos/a.1924971354499031/2664668797195946/?type=3&amp;eid=ARCBaznRnMGbE-iFheLbf7HyZpHcxpz7vT-F8J9Yl9_BrqHtwnjLsmdbyaE4l4nbEJKXWdg2aLyGuj7B&amp;ifg=1).
+The project was prepared and submitted within the Brazilian "Bootcamp Data Science na prática" by Neuron (https://www.facebook.com/neuronDSAI/photos/a.1924971354499031/2664668797195946/?type=3&amp;eid=ARCBaznRnMGbE-iFheLbf7HyZpHcxpz7vT-F8J9Yl9_BrqHtwnjLsmdbyaE4l4nbEJKXWdg2aLyGuj7B&amp;ifg=1).
 
 See also here: https://user-images.githubusercontent.com/63872579/107982816-76e4f180-6fa3-11eb-9ce9-e1abadab44ec.png
 
