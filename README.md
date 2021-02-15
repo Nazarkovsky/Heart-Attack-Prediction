@@ -11,6 +11,6 @@ The dataset was provided by the Bootcamp administration from Kaggle: https://www
 
 In order to perform the typical classification procedure for the binary output, following metrics are required to select the optimal model: misclassification rate, F1, Accuracy. The project is supported by figures found in the Issues section. 
 
-The data were stratified and divided: 75% for training, 25% for validation.
+The data were stratified and divided: 75% for training, 25% for validation (https://user-images.githubusercontent.com/63872579/107993039-c71a7e80-6fb8-11eb-92b9-fb462a3de265.jpg).
 
 The models for machine learning: Naive Bayes, K-Nearest Neighbors (155 Neighbors estimated through euclidean distances at the uniform weights of points), Multiple Logistic Regression, SVM (linear kernel function, cost = 1), Boosted Tree and Bootstrap Forest.
