@@ -7,6 +7,8 @@ See also here: https://user-images.githubusercontent.com/63872579/107982816-76e4
 
 The dataset was provided by the Bootcamp administration from Kaggle: https://www.kaggle.com/imnikhilanand/heart-attack-prediction
 
+The certificate: https://user-images.githubusercontent.com/63872579/107994659-d9e28280-6fbb-11eb-80fd-567091e308f8.jpg
+
 ## Methods
 
 In order to perform the typical classification procedure for the binary output, following metrics are required to select the optimal model: misclassification rate, F1, Accuracy. The project is supported by figures found in the Issues section. 
