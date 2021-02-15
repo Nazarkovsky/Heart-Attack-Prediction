@@ -1,0 +1,58 @@
+// Fit Nominal Logistic Publish Probability Formulas
+New Column( "Lin[0]_1",
+	"Numeric",
+	Formula(
+		(-1.28390841919971) + Match( :sex,
+			"0", -0.641653510757877,
+			"1", 0.641653510757877,
+			.
+		) + Match( :slope,
+			"0", 0.25760335626692,
+			"1", 0.674888646951892,
+			"2", -0.932492003218813,
+			.
+		) + Match( :thal,
+			"1", -0.369546940296742,
+			"2", -0.480282321795861,
+			"3", 0.849829262092603,
+			.
+		) + Match( :cp,
+			"0", 1.43301318995175,
+			"1", -0.00490848412504643,
+			"2", -0.879854328916488,
+			"3", -0.548250376910215,
+			.
+		) + Match( :ca,
+			"0", 0,
+			"1", 1.35509054886396,
+			"2", 2.96143873569952,
+			"3", 2.81834116411171,
+			"4", -15.7149332910018,
+			.
+		)
+	),
+	Set Property( "Intermediate", 1 )
+);
+New Column( "Prob[0]_1",
+	"Numeric",
+	Formula( 1 / (1 + Exp( -:Name( "Lin[0]_1" ) )) ),
+	Set Property(
+		"Response Probability",
+		{:target, "0", Creator( "Fit Nominal Logistic" ), ID( 1710922257 ),
+		Validation( :Validation )}
+	)
+);
+New Column( "Prob[1]_1",
+	"Numeric",
+	Formula( 1 / (1 + Exp( :Name( "Lin[0]_1" ) )) ),
+	Set Property(
+		"Response Probability",
+		{:target, "1", Creator( "Fit Nominal Logistic" ), ID( 1710922257 ),
+		Validation( :Validation )}
+	)
+);
+New Column( "Most Likely target_1",
+	"Character",
+	"Nominal",
+	Formula( IfMax( :Name( "Prob[0]_1" ), "0", :Name( "Prob[1]_1" ), "1", "" ) )
+);;
