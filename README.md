@@ -23,4 +23,4 @@ The most effective trained model was Bootstrap Forest [among other classificatio
 
 As for non-parametric KNN, MR and F1 became higher at the validation at K = 92 (number of neighbors of the minimal MR on validation): MR = 5.77% and F1 = 0.939. See the graphical summary [here](https://user-images.githubusercontent.com/63872579/108113666-8c771b80-7076-11eb-81da-d38959843e33.jpg) and the table of all 155 neighbors vs. MR is found in the uploaded file "KNN-iterations summary by MR.xlsx".
 
-An overall comparison of the values for actual target vs. predicted target by the set models is [here]()
+An overall comparison of the values for actual target vs. predicted target by the set models on Validation is [here]() and in general is [here](https://user-images.githubusercontent.com/63872579/108114684-e2988e80-7077-11eb-9cee-57dcdb2f5b21.jpg)
