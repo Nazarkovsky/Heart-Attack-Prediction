@@ -11,8 +11,10 @@ The dataset was provided by the Bootcamp administration [from Kaggle](https://ww
 
 ## Methods
 
-In order to perform the typical classification procedure for the binary output, following metrics are required to select the optimal model: misclassification rate, F1, Accuracy. The project is supported by figures found in the Issues section. 
+In order to perform the typical classification procedure for the binary output, following metrics are required to select the optimal model: misclassification rate, F1, Generalized R2 (Nagelkerke or Craig and Uhler R2 R2), Mean Abs Dev (the average of the absolute values of the differences between the response and the predicted response). The project is supported by figures found in the Issues section. 
 
 The data were stratified and divided : [75% for training, 25% for validation](https://user-images.githubusercontent.com/63872579/107993039-c71a7e80-6fb8-11eb-92b9-fb462a3de265.jpg).
 
-The models for machine learning: Naive Bayes, K-Nearest Neighbors (155 Neighbors estimated through euclidean distances at the uniform weights of points), Multiple Logistic Regression, SVM (linear kernel function, cost = 1), Boosted Tree and Bootstrap Forest.
+The models for machine learning: Naive Bayes, K-Nearest Neighbors (155 Neighbors estimated through euclidean distances at the uniform weights of points), Multiple Logistic Regression, Generalized Regression techniques (Lasso, Elastic Net, Ridge, Double Lasso), SVM (linear kernel function, cost = 1), Boosted Tree and Bootstrap Forest.
+
+
