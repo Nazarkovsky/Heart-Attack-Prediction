@@ -1,0 +1,32 @@
+-> POSSIBILIDADE DE ATAQUE NO CORAÇÃO ******
+     -> It is integer valued 0 = no/less chance of heart attack and 1 = more chance of heart attack
+     -> https://www.kaggle.com/nareshbhat/health-care-data-set-on-heart-attack-possibili
+sobre as variáveis (mais infos: https://archive.ics.uci.edu/ml/datasets/Heart+Disease):
+1) age
+2) sex
+3) cp: chest pain type/dor no peito (4 values)
+
+-- Value 1: typical angina
+-- Value 2: atypical angina
+-- Value 3: non-anginal pain
+-- Value 4: asymptomatic
+
+4) trestbps: resting blood pressure/pressão arterial em repouso
+5) chol: serum cholestoral in mg/dl/colesterol sérico em mg/dl
+6) fbs: fasting blood sugar/açúcar no sangue em jejum > 120 mg/dl: 1=yes, 0=No
+7) restecg: resting electrocardiographic results/resultados eletrocardiográficos de repouso (values 0,1,2)
+
+-- Value 0: normal
+-- Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)/ ter anomalia da onda ST-T (inversões da onda T e/ou elevação ou depressão do ST > 0,05 mV
+-- Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria /Hipertrofia provável ou definitiva do ventrículo esquerdo segundo os critérios de Estes
+
+8) thalach: maximum heart rate achieved /frequência cardíaca máxima atingir
+9) exang: exercise induced angina/ angina induzida pelo exercício (1 = yes; 0 = no)
+10) oldpeak = ST depression induced by exercise relative to rest/ ST depressão induzida pelo exercício em relação ao repouso
+11) slope: the slope of the peak exercise ST segment/ declive: o declive do segmento ST do pico do exercício
+-- Valor 1: linha ascendente
+-- Valor 2: plano
+-- Valor 3: Redução da velocidade
+12) ca: number of major vessels (0-3) colored by flourosopy/ ca: número de grandes vasos sanguíneos (0-3) coloridos por flourosopia
+13) thal: 0 = normal; 1 = fixed defect; 2 = reversable defect / 0 = normal; 1 = defeito fixo; 2 = defeito reversível
+14) target: 0= less chance of heart attack 1= more chance of heart attack
