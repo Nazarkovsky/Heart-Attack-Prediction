@@ -5,7 +5,7 @@ The project was prepared and submitted within the Brazilian ["Bootcamp Data Scie
 
 See also [here](https://user-images.githubusercontent.com/63872579/107982816-76e4f180-6fa3-11eb-9ce9-e1abadab44ec.png)
 
-The dataset was provided by the Bootcamp administration [from Kaggle](https://www.kaggle.com/imnikhilanand/heart-attack-prediction)
+The dataset was provided by the Bootcamp administration [from Kaggle](https://www.kaggle.com/imnikhilanand/heart-attack-prediction). The description of the data is uploaded here as a TXT.
 
 [The certificate](https://user-images.githubusercontent.com/63872579/107994659-d9e28280-6fbb-11eb-80fd-567091e308f8.jpg)
 
