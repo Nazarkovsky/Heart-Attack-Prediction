@@ -19,5 +19,5 @@ The models for machine learning: Naive Bayes, K-Nearest Neighbors (155 Neighbors
 
 ## Results and Discussions
 
-The most effective trained model was Bootstrap Forest [among other classification models]
+The most effective trained model was Bootstrap Forest [among other classification models](https://user-images.githubusercontent.com/63872579/108097217-9db52d80-7060-11eb-873e-f72926b957b4.jpg)
 
