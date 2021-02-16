@@ -19,5 +19,5 @@ The models for machine learning: Naive Bayes, K-Nearest Neighbors (155 Neighbors
 
 ## Results and Discussions
 
-The most effective trained model was Bootstrap Forest [among other classification models](https://user-images.githubusercontent.com/63872579/108097217-9db52d80-7060-11eb-873e-f72926b957b4.jpg). While [validating](https://user-images.githubusercontent.com/63872579/108101778-795c4f80-7066-11eb-97c0-bf5d8059520d.jpg), it was discovered that majority of models gave MR 7,69% at equal F1 (0.92), whereas their Generaized R2-s were also identical. Thus, among the models, the minimal Mean Abs Dev had the logistic regression. Its Fit data, ROC, confusion matrix are given [here]
+The most effective trained model was Bootstrap Forest [among other classification models](https://user-images.githubusercontent.com/63872579/108097217-9db52d80-7060-11eb-873e-f72926b957b4.jpg). While [validating](https://user-images.githubusercontent.com/63872579/108101778-795c4f80-7066-11eb-97c0-bf5d8059520d.jpg), it was discovered that majority of models gave MR 7,69% at equal F1 (0.92), whereas their Generaized R2-s were also identical. Thus, among the models, the minimal Mean Abs Dev had the logistic regression. Its Fit data, ROC, confusion matrix are given [here](https://user-images.githubusercontent.com/63872579/108105229-1faa5400-706b-11eb-85ed-b3b5dfb71271.jpg)
 
